@@ -1,7 +1,8 @@
 import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
-  return <h1>Deloy application react lan 3</h1>;
+  return <Hero />;
 }
 
 export default App;
