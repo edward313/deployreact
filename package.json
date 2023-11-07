@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "homepage": "https://edward313.github.io/deployreact/prod",
   "private": true,
+<<<<<<< HEAD
+=======
+  "homepage": "https://edward313.github.io/deployreact/dev",
+>>>>>>> dev
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

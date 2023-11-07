@@ -12,7 +12,7 @@ const Hero = () => {
         </p>
         <div className="mt-4">
           <button className="px-6 py-2 text-center text-white bg-indigo-600 rounded-md shadow-md">
-            Get started
+            Get started Dev
           </button>
         </div>
       </div>
