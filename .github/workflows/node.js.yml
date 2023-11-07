@@ -30,7 +30,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          destination_dir: main
+          publish_dir: ./build/main
           publish_branch: gh-pages
-          keep_files: true
+          # keep_files: true
