@@ -2,7 +2,7 @@
   "name": "deployreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://edward313.github.io/deployreact",
+  "homepage": "https://edward313.github.io/deployreact/dev",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
