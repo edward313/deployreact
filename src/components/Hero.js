@@ -10,7 +10,7 @@ const Hero = () => {
         <p className="text-lg text-center text-white">Test merge 12345</p>
         <div className="mt-4">
           <button className="px-6 py-2 text-center text-white bg-indigo-600 rounded-md shadow-md">
-            Get started Dev
+            Get started 7:25
           </button>
         </div>
       </div>
