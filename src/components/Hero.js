@@ -7,7 +7,7 @@ const Hero = () => {
         <h1 className="mb-2 text-4xl font-bold text-center">
           Hero section with background image 1
         </h1>
-        <p className="text-lg text-center text-white">Nhánh main nè</p>
+        <p className="text-lg text-center text-white">Test merge</p>
         <div className="mt-4">
           <button className="px-6 py-2 text-center text-white bg-indigo-600 rounded-md shadow-md">
             Get started Dev
