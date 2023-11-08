@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.c4fd2adf.css",
-    "main.js": "./static/js/main.cee4a16f.js",
-    "static/js/787.cc4d1858.chunk.js": "./static/js/787.cc4d1858.chunk.js",
-    "index.html": "./index.html",
-    "main.c4fd2adf.css.map": "./static/css/main.c4fd2adf.css.map",
-    "main.cee4a16f.js.map": "./static/js/main.cee4a16f.js.map",
-    "787.cc4d1858.chunk.js.map": "./static/js/787.cc4d1858.chunk.js.map"
+    "main.css": "https://edward313.github.io/deployreact/prod/static/css/main.c4fd2adf.css",
+    "main.js": "https://edward313.github.io/deployreact/prod/static/js/main.05fdd03e.js",
+    "static/js/787.cc4d1858.chunk.js": "https://edward313.github.io/deployreact/prod/static/js/787.cc4d1858.chunk.js",
+    "index.html": "https://edward313.github.io/deployreact/prod/index.html",
+    "main.c4fd2adf.css.map": "https://edward313.github.io/deployreact/prod/static/css/main.c4fd2adf.css.map",
+    "main.05fdd03e.js.map": "https://edward313.github.io/deployreact/prod/static/js/main.05fdd03e.js.map",
+    "787.cc4d1858.chunk.js.map": "https://edward313.github.io/deployreact/prod/static/js/787.cc4d1858.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4fd2adf.css",
-    "static/js/main.cee4a16f.js"
+    "static/js/main.05fdd03e.js"
   ]
 }
