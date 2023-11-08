@@ -1,7 +1,7 @@
 {
   "name": "deployreact",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,9 +15,7 @@
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "build_staging": "PUBLIC_URL=https://edward313.github.io/deployreact/prod/ react-scripts build",
-    "build_dev": "PUBLIC_URL=https://edward313.github.io/deployreact/dev/ react-scripts build",
+    "build": "PUBLIC_URL=./ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
