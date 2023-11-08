@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/deployreact/prod/static/css/main.c4fd2adf.css",
-    "main.js": "/deployreact/prod/static/js/main.da716ed8.js",
-    "static/js/787.cc4d1858.chunk.js": "/deployreact/prod/static/js/787.cc4d1858.chunk.js",
-    "index.html": "/deployreact/prod/index.html",
-    "main.c4fd2adf.css.map": "/deployreact/prod/static/css/main.c4fd2adf.css.map",
-    "main.da716ed8.js.map": "/deployreact/prod/static/js/main.da716ed8.js.map",
-    "787.cc4d1858.chunk.js.map": "/deployreact/prod/static/js/787.cc4d1858.chunk.js.map"
+    "main.css": "https://edward313.github.io/deployreact/prod/static/css/main.c4fd2adf.css",
+    "main.js": "https://edward313.github.io/deployreact/prod/static/js/main.e7037d19.js",
+    "static/js/787.cc4d1858.chunk.js": "https://edward313.github.io/deployreact/prod/static/js/787.cc4d1858.chunk.js",
+    "index.html": "https://edward313.github.io/deployreact/prod/index.html",
+    "main.c4fd2adf.css.map": "https://edward313.github.io/deployreact/prod/static/css/main.c4fd2adf.css.map",
+    "main.e7037d19.js.map": "https://edward313.github.io/deployreact/prod/static/js/main.e7037d19.js.map",
+    "787.cc4d1858.chunk.js.map": "https://edward313.github.io/deployreact/prod/static/js/787.cc4d1858.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4fd2adf.css",
-    "static/js/main.da716ed8.js"
+    "static/js/main.e7037d19.js"
   ]
 }
