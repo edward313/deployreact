@@ -15,7 +15,7 @@
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL=./ react-scripts build",
     "build_staging": "PUBLIC_URL=https://edward313.github.io/deployreact/prod/ react-scripts build",
     "build_dev": "PUBLIC_URL=https://edward313.github.io/deployreact/dev/ react-scripts build",
     "test": "react-scripts test",
