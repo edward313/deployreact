@@ -7,7 +7,7 @@ pipeline {
             steps { 
                 sh 'docker build -t microedu .'
                 sh 'docker container stop micro-edu || echo "this container does not exist"'
-                sh "docker tag microedu:latest phat/dev:latest'
+                sh 'docker tag microedu:latest phat/dev:latest'
                 // sh 'echo y | docker container prune '
             }    
        }
