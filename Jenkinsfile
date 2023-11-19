@@ -5,16 +5,16 @@ pipeline {
         
        stage('Build Image') {
             steps { 
-                sh 'sudo docker build -t reactimage .'
-                sh 'sudo docker container stop My-first-container || echo "this container does not exist"'
-                sh 'sudo docker tag reactimage:latest phat/dev:latest'
-                sh 'echo y | docker container prune '
+                sh 'docker build -t microedu .'
+                sh 'docker container stop micro-edu || echo "this container does not exist"'
+                sh "docker tag microedu:latest phat/dev:latest'
+                // sh 'echo y | docker container prune '
             }    
        }
        stage('Deploy') {
             steps {  
                 script {
-                    sh 'sudo docker container run -d --rm --name My-first-container -p 3001:3000 phat/dev:latest'
+                    sh 'docker container run -d --rm --name micro-edu -p 3001:3000 phat/dev:latest'
                 }
             }
        }
