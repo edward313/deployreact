@@ -5,6 +5,7 @@ pipeline {
         
        stage('Build Image') {
             steps { 
+                sh 'sudo ls'
                 sh 'docker build -t reactimage .'
                 sh 'docker container stop My-first-container || echo "this container does not exist"'
                 sh 'docker tag reactimage:latest phat/dev:latest'
