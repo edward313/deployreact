@@ -1,6 +1,10 @@
 import React from "react";
 
 const Hero = () => {
+  const date = new Date();
+  const showTime =
+    date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+
   return (
     <div className='bg-[url("https://cdn.pixabay.com/photo/2022/10/03/23/41/house-7497001__340.png")] h-96 w-full bg-cover bg-center p-20'>
       <div className="flex flex-col items-center justify-center">
@@ -9,9 +13,8 @@ const Hero = () => {
         </h1>
         <p className="text-lg text-center text-white">Test merge 12345</p>
         <div className="mt-4">
-          <button className="px-6 py-2 text-center text-white bg-indigo-600 rounded-md shadow-md">
-            Get started 7:25 2
-          </button>
+          <h1 align="center">Current Time</h1>
+          <h2 align="center"> {showTime}</h2>
         </div>
       </div>
     </div>
